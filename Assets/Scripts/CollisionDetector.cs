@@ -35,7 +35,7 @@ public class CollisionDetector : MonoBehaviour
         but1 = GameObject.FindGameObjectWithTag("But1");
         but2 = GameObject.FindGameObjectWithTag("But2");   
         target = new Vector3(8, 0.1f, 0);   // Box1  ve 2 nin yeni konumlarrý harita üzerinden                                                                                                                      
-        target2 = new Vector3(0,0.1f,-8);         // hesplamalarý yapýlarak targte olarak tanýmlanýyor.
+        target2 = new Vector3(0,0.1f,-8);   // hesplamalarý yapýlarak targte olarak tanýmlanýyor.
     }
 
     private void OnTriggerStay(Collider other)
@@ -48,17 +48,16 @@ public class CollisionDetector : MonoBehaviour
                 isClick = true;
                 playSounds();
             }
-            if (box1.transform.position.y >= 0) // condition
+            if (box1.transform.position.y >= 0)                                        // condition
             {
                 navMake.navMeshBake();
-                but1.transform.position = new Vector3(-20.4f, -16, -12); // duvarýn içine göçsün
+                but1.transform.position = new Vector3(-20.4f, -16, -12);               // duvarýn içine göçsün
                 isTouch = false;
                 but1.gameObject.GetComponent<BoxCollider>().isTrigger = false;
                 but1.gameObject.GetComponent<Renderer>().material.color = Color.black; // siyah ve dokunulamaz olsun
-                but1.gameObject.tag = "Untagged";                                      // tekrar týklama ihtimaline karþý is touch true olmasýn diyetagýný deðiþtiriyoruz.
-                // ateþböceði oluþturma sesi ve hareket sonlandý sesi 
+                but1.gameObject.tag = "Untagged";                                      // tekrar týklama ihtimaline karþý is touch true olmasýn diyetagýný deðiþtiriyoruz.                                                                  
                 Instantiate(firefly, bug_positions[0], Quaternion.Euler(90,0,90));
-                boxMovement.Stop();
+                boxMovement.Stop();                                                    // ateþböceði oluþturma sesi ve hareket sonlandý sesi 
                 instant.Play();
             }
            
