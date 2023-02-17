@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     private CameraMovement cm;
     private Movement pm;
 
-    [SerializeField] GameObject[] fireflies;
+    [SerializeField] GameObject[] collectingObj;
     [SerializeField] GameObject[] slots;
 
     private void Awake()
@@ -56,6 +56,6 @@ public class GameManager : MonoBehaviour
 
     public void slotFill(int index) {
         slots[index].SetActive(false);
-        fireflies[index].SetActive(true);
+        collectingObj[index].SetActive(true);
     }
 }

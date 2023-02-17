@@ -51,20 +51,20 @@ public class CameraMovement : MonoBehaviour
                                       new Vector3(21, -90, 0),
                                       new Vector3(21, -135, 0)};
 
-    Vector3[] positionArray3 = new[] { new Vector3(-45, 75, 78), // LEVEL 3 DEÐERLERÝ           DÜZELTÝLECEKKKKKK !!!!!
-                                       new Vector3(-80, 80, 0),
-                                       new Vector3(-60, 85, -60),
-                                       new Vector3(60, 90, -65),
-                                       new Vector3(60, 85, 0),
-                                       new Vector3(45, 85, 65)};
+    Vector3[] positionArray3 = new[] { new Vector3(-5, 85, -65), // LEVEL 3 DEÐERLERÝ          
+                                       new Vector3(75, 85, 0),
+                                       new Vector3(50, 65, 25),
+                                       new Vector3(20, 65, 60),
+                                       new Vector3(-75, 85, 45),
+                                       new Vector3(-65, 85, -45)};
 
     //ROTATIONS
-    Vector3[] rotationArray3 = new[] { new Vector3(21, 45, 0),  // LEVEL 3 DEÐERLERÝ
-                                      new Vector3(21, 90, 0),
-                                      new Vector3(21, 45, 0),
-                                      new Vector3(21, -45, 0),
+    Vector3[] rotationArray3 = new[] { new Vector3(21, 0, 0),  // LEVEL 3 DEÐERLERÝ
                                       new Vector3(21, -90, 0),
-                                      new Vector3(21, -135, 0)};
+                                      new Vector3(21, -120, 0),
+                                      new Vector3(21, -145, 0),
+                                      new Vector3(21, -225, 0),
+                                      new Vector3(21, -320, 0)};
 
     public int index =0, index1 =0, index2 =0, index3 =0;
     Vector3 refpos,refpos1;

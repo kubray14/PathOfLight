@@ -52,8 +52,9 @@ public class Movement : MonoBehaviour
                     print("butona týkladýn");
                     Cd.isTouch = true;
                 }
-                else if (hit.collider.gameObject.CompareTag("Firefly")) // Nerede olursa olsun eðer ateþvöceðine týkladýysa ateþböceði kaybolsun score artsýn
-                {
+                else if (hit.collider.gameObject.CompareTag("Firefly") || hit.collider.gameObject.CompareTag("Star") || hit.collider.gameObject.CompareTag("Pearl")) 
+                    // Nerede olursa olsun eðer ateþvöceðine týkladýysa ateþböceði kaybolsun score artsýn 
+                {   // (ve diðer bölümler içinde farklý objeler için ayný etkiyi verecek.)
                     score++;
                     click.Play();
                     hit.collider.gameObject.SetActive(false);

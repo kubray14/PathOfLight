@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6938959491982482082}
   - component: {fileID: 5277911186632281350}
   - component: {fileID: 512530359615247937}
+  - component: {fileID: 9188730673761991350}
   m_Layer: 0
   m_Name: Hareketli Platform 2
   m_TagString: Map
@@ -83,6 +84,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &9188730673761991350
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6678013246194914}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5116315762162364625, guid: bf73c53cd7adf6442a922ecd3a81e03c, type: 3}
 --- !u!1 &109316094983827500
 GameObject:
   m_ObjectHideFlags: 0
@@ -486,6 +501,7 @@ GameObject:
   - component: {fileID: 4211511808186081903}
   - component: {fileID: 7489496489165195564}
   - component: {fileID: 4928327336686581641}
+  - component: {fileID: 5075817612942943536}
   m_Layer: 0
   m_Name: Hareketli Platform
   m_TagString: Map
@@ -558,6 +574,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5075817612942943536
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4171381617155857272}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3498435042551589258, guid: bf73c53cd7adf6442a922ecd3a81e03c, type: 3}
 --- !u!1 &7050004992431179437
 GameObject:
   m_ObjectHideFlags: 0

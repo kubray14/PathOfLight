@@ -16,6 +16,8 @@ TagManager:
   - LV1
   - LV2
   - LV3
+  - Pearl
+  - Spot2
   layers:
   - Default
   - TransparentFX

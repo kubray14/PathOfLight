@@ -11,17 +11,17 @@ public class LevelFinder : MonoBehaviour
         if (other.gameObject.CompareTag("LV1"))
         {
             levelUpdate.Play();
-            StartCoroutine(waitForLoad(2.5f, 1));
+            StartCoroutine(waitForLoad(1.5f, 1));
         }
         else if (other.gameObject.CompareTag("LV2"))
         {
             levelUpdate.Play();
-            StartCoroutine(waitForLoad(2.5f, 2));
+            StartCoroutine(waitForLoad(1.5f, 2));
         }
         else if (other.gameObject.CompareTag("LV3"))
         {
             levelUpdate.Play();
-            StartCoroutine(waitForLoad(2.5f, 3));
+            StartCoroutine(waitForLoad(1.5f, 3));
         }
     }
     IEnumerator waitForLoad(float a, int index)          // bekleme coroutine fonksiyonu (a = saniye)
