@@ -2,6 +2,7 @@
 This is Young Women Coding The Future GameJam Project.
 I'm the game developer of this project.
 In this project UI design is not fisished yet.
+You can play this game https://play.unity.com/u/kubrayx
 
 # **MAIN MAP**
 ![MainMap](https://user-images.githubusercontent.com/101721434/219642699-290cfd46-d492-4541-9d3b-5445cdeac939.png)
